@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapeamento</title>
-</head>
-<body>
-    <h1>Mapemaento de Imagens</h1>
-    <img src="../img/imagem_mapeamento.jpg" alt="" 
-    usemap="#mapa">
-    <map name="mapa">
-        <area shape="" coords="" href="" alt="">
-        
-    </map>
-    
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapeamento</title>
+        <link rel="stylesheet" href="../css/estiloMap.css">
+    </head>
+    <body>
+        <h1>Mapemaento de Imagens</h1>
+        <img src="../img/imagem_mapeamento.jpg" alt
+            usemap="#geraldo">
+        <map name="geraldo">
+            <area shape="rect" coords="230,251,149,175"
+                href="https://www.globo.com/" alt>
+            <area shape="circle" coords="85,214,40"
+                href="https://www.globo.com/" alt>
+            <area shape="poly" coords="458,179,419,250,499,251"
+                href="https://www.globo.com/" alt>
+            <area shape="rect" coords="268,174,377,251"
+                href="https://www.globo.com/" alt>
+        </map>
 
-</body>
+        <h1 class="fundo_vermelho centralizado">H1 Fora da div</h1>
+        <p>paragrafo fora da div</p>
+
+        <div id="Rafael">
+            <h1>Dentro da Div</h1>
+            <h2>H2 Dentro da div</h2>
+            <p>paragráfo 1 dentro da div</p>
+            <p class="fundo_vermelho">paragráfo 2 dentro da div</p>
+        </div>
+        <div>
+            <h1>Dentro da Div</h1>
+            <h2>H2 Dentro da div</h2>
+            <p>paragráfo 1 dentro da div</p>
+            <p class="fundo_vermelho">paragráfo 2 dentro da div</p>
+        </div>
+
+    </body>
 </html>

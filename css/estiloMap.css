@@ -1,0 +1,15 @@
+p{
+    background-color: blue;
+}
+#Rafael div {
+    color: yellow;
+}
+#Rafael div p {
+    background-color: green;
+}
+.fundo_vermelho {
+    background-color: red;
+}
+.centralizado {
+    text-align: center;
+}
